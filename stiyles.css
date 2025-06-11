@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff0f0;
+}
+
+header {
+  background-color: #e48b8b;
+  padding: 10px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+header h1 span {
+  font-style: italic;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a.login {
+  color: #fff;
+  background-color: #a94442;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #ffecec;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.noticia h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.noticia img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.noticia h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.destaque {
+  font-style: italic;
+  color: #555;
+}
+
+.subnoticia {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.subnoticia img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.saiba-mais {
+  margin-top: 30px;
+}
+
+.saiba-mais a {
+  color: #a94442;
+  text-decoration: none;
+}
